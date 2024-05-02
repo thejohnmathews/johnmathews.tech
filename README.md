@@ -4,6 +4,8 @@ I knew that when I graduated from Clemson University, I wanted to travel and exp
 
 This website will be made from scratch (with the help of frameworks, of course) showcasing my personal résumé as well as a "blog" section so that my family can see what I am doing overseas. 
 
-## Technologies used: 
+## Technologies & Services used: 
     1) ReactJS (18.3.1)
     2) NextUI (2.3.6)
+    3) Domain.com with Google Workspaces and Web Hosting
+    4) FTP-Deploy-Action on GitHub for CI/CD development
