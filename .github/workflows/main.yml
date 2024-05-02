@@ -23,4 +23,4 @@ jobs:
       with:
         server: 10e9744.dcomhost.com
         username: johnmathews
-        password: ${{ secrets.password }}
+        password: ${{ secrets.FTP_PASSWORD }}
