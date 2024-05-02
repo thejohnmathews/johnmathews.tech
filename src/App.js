@@ -23,7 +23,7 @@ function App() {
   return (
     <NextUIProvider>
       <div> 
-        <h1> Hello World! </h1>
+        <h1> Hello World, testing CI/CD Deployment. </h1>
       </div>
     </NextUIProvider>
   );
