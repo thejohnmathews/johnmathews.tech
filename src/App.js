@@ -7,24 +7,20 @@ TODO:
   -> it should behave as a about me page with links?
   -> menu option to resume
   -> menu option to personal blog
-
-Thoughts:
-  - I destroyed the initial public/index.html, did I need it?
-  - 
 */
 
 
 // import statements
-import * as React from "react";
 import './App.css';
+import './index.css';
+import * as React from "react";
 import {NextUIProvider} from "@nextui-org/react";
+import HomePage from "./Components/HomePage";
 
 function App() {
   return (
     <NextUIProvider>
-      <div> 
-        <h1> Hello World, testing if CI/CD procs in non-master branches </h1>
-      </div>
+      <HomePage></HomePage>
     </NextUIProvider>
   );
 }

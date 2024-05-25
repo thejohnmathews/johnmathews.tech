@@ -1,3 +1,6 @@
+// johnmathews.tech - tailwind.config.js
+// creates & initializes import statement for NextUI
+
 // tailwind.config.js
 const {nextui} = require("@nextui-org/react");
 
