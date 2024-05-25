@@ -2,28 +2,30 @@
 //
 
 import React from 'react';
-import { Card, Image, Link, Spacer } from '@nextui-org/react';
+import {Image, Link, Spacer} from '@nextui-org/react';
+import {Card, CardHeader, CardBody, CardFooter, Button} from "@nextui-org/react";
+// card doc: https://v1.nextui.org/docs/components/card
 
 
 const HomePage = () => {
     return (
-        <div className="bg-slate-800 rounded-lg">
-            <header>
-                <h1 className="text-slate-400 mt-2 text-large"> Welcome! I'm John. </h1>
-            </header>
-
+        <div className="bg-slate-800">
             <main>
                 <div>
-                    <Card>
+                    <div className="gap-2 grid grid-cols-12 grid-rows-2 px-8">
+                        <Card className="col-span-12 sm:col-span-4 h-[300px]">
+                            <CardHeader className="absolute z-10 top-1 flex-col !items-start">
+                                <p className="text-tiny text-white/60 uppercase font-bold"></p>
+                                <h1 className="text-white font-medium size"> Welcome! I'm John.</h1>
+                            </CardHeader>
                             <Image
-                                isZoomed
+                                removeWrapper
+                                alt="Card background"
+                                className="z-0 w-60 h-60 object-cover"
                                 src="images/meandprez.JPG"
-                                alt="John Mathews"
-                                objectFit="cover"
-                                width="50%"
-                                height={320}
                             />
-                    </Card>
+                        </Card>
+                    </div>
                 </div>
 
                 <div>

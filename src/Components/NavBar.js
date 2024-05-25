@@ -4,8 +4,8 @@
 
 // import statements
 import React from 'react';
-import {Link, Button} from '@nextui-org/react';
-import {Navbar, NavbarBrand, NavbarContent, NavbarItem, NavbarMenuToggle, NavbarMenu, NavbarMenuItem} from "@nextui-org/react";
+import {Link} from '@nextui-org/react';
+import {Navbar, NavbarBrand, NavbarContent, NavbarItem} from "@nextui-org/react";
 
 const NavBar = () => {
 
@@ -13,7 +13,7 @@ const NavBar = () => {
       <div className= "dark">
           <Navbar isBordered>
               <NavbarBrand>
-                  <p className="text-white mt-5 text-base font-medium tracking-tight">johnmathews.tech</p>
+                  <p className="text-white mt-5 text-base font-medium tracking-tight font">johnmathews.tech</p>
               </NavbarBrand>
               <NavbarContent>
                   <NavbarItem>

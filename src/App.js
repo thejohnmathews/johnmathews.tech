@@ -4,9 +4,7 @@
 /*
 TODO:
   - Create home screen
-  -> it should behave as a about me page with links?
-  -> menu option to resume
-  -> menu option to personal blog
+  -> create tailwindcss theme section
 */
 
 
