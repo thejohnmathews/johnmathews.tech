@@ -14,7 +14,7 @@ const HomePage = () => {
                     <Card className="overflow-hidden rounded-lg">
                             <Image
                                 isZoomed
-                                src="images/meandprez.jpg"
+                                src="images/meandprez.JPG"
                                 alt="John Mathews"
                                 objectFit="cover"
                                 width="50%"

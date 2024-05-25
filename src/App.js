@@ -20,7 +20,7 @@ import HomePage from "./Components/HomePage";
 function App() {
   return (
     <NextUIProvider>
-      <HomePage></HomePage>
+        <HomePage/>
     </NextUIProvider>
   );
 }
