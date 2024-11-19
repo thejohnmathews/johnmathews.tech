@@ -1,5 +1,5 @@
 <?php
-function getPosts($folder = "posts/") {
+function getPosts($folder = "../posts/") {
     $files = glob($folder . "*.json");
     $posts = [];
     foreach ($files as $file) {

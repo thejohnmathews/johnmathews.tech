@@ -11,7 +11,7 @@
             <h1>Hey, I'm John!</h1>
             <nav>
                 <a href="index.php">Home</a>
-                <a href="pages/blog.php">Blog</a>
+                <a href="pages/blog.php">La vida en Espana</a>
                 <a href="pages/about.html">About</a>
             </nav>
         </header>
