@@ -2,15 +2,17 @@
 function getPosts($folder = "../posts/") {
     $files = glob($folder . "*.json");
     $posts = [];
+
     foreach ($files as $file) {
-        $content = json_decode(file_get_contents($file), true);
-        $posts[] = $content;
+        $data = json_decode(file_get_contents($file), true);
+        if ($data) {
+            $posts[] = $data;
+        }
     }
-    usort($posts, function($a, $b) {
-        return strtotime($b['date']) - strtotime($a['date']); // Sort by date (newest first)
-    });
+
     return $posts;
 }
+
 
 function getPost($filename) {
     $file = "posts/$filename.json";
