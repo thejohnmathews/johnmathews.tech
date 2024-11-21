@@ -2,6 +2,6 @@
     "title": "My first weeks in Spain",
     "date": "2024-11-20",
     "author": "John Mathews",
-    "content": "My first 2 weeks were very busy.",
-    "images": ["posts/images/image1.jpg", "posts/images/image2.jpg", "posts/images/image3.jpg"]
+    "content": "\tOne Paragraph\n Two Paragraph \n\n Desc about the pictures.",
+    "images": ["posts/images/image1.jpg", "posts/images/image2.jpg"]
 }

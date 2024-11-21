@@ -11,7 +11,7 @@ $posts = getPosts();
 <html lang="en">
 
     <!-- load scripts -->
-    <script src="../script.js"></script>
+    <script src="../scripts.js"></script>
 
     <!-- set page metadata -->
     <head>
