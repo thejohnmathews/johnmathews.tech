@@ -1,19 +1,19 @@
-// stcripts.js: add dynamic functionality to the webpage, but this is still WIP
+// scripts.js: add dynamic functionality to the webpage, but this is still WIP
 // created 11/20/24 by John Mathews
 
-document.addEventListener("DOMContentLoaded", () => {
-    const slideshows = document.querySelectorAll(".post-slideshow");
+function changeSlide(button, direction) {
+    const slideshow = button.closest(".slideshow-container");
+    const slides = slideshow.querySelectorAll(".slide");
+    let currentIndex = Array.from(slides).findIndex(slide => slide.classList.contains("active"));
 
-    slideshows.forEach(slideshow => {
-        let images = slideshow.querySelectorAll("img");
-        let index = 0;
+    // Remove active class from the current slide
+    slides[currentIndex].classList.remove("active");
 
-        if (images.length > 1) {
-            setInterval(() => {
-                images[index].style.display = "none"; // Hide current image
-                index = (index + 1) % images.length; // Move to next image
-                images[index].style.display = "block"; // Show next image
-            }, 5000); // Change every 5 seconds
-        }
-    });
-});
+    // Calculate the new index
+    currentIndex += direction;
+    if (currentIndex < 0) currentIndex = slides.length - 1; // Wrap to the last slide
+    if (currentIndex >= slides.length) currentIndex = 0;   // Wrap to the first slide
+
+    // Add active class to the new slide
+    slides[currentIndex].classList.add("active");
+}

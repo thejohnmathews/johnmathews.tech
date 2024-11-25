@@ -40,7 +40,6 @@ main {
     margin: 20px auto;
 }
 
-
 .post-card {
     background: #fff;
     border-radius: 8px;
@@ -51,6 +50,10 @@ main {
     text-align: center;
 }
 
+.content{
+    text-align: left;
+}
+
 .post-card h3 {
     margin-bottom: 10px;
 }
@@ -58,6 +61,62 @@ main {
 .post-card p {
     color: #555;
 }
+
+/* Slideshow container */
+.post-slideshow {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    height: 300px;
+    margin: 20px auto;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+/* Slideshow images */
+.post-slideshow img {
+    display: none; /* Hide all slides initially */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.post-slideshow img.active {
+    display: block; /* Show the active slide */
+}
+
+/* Navigation buttons */
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Ensure slideshow buttons are not hidden */
+.slideshow-container {
+    position: relative;
+    height: 100%;
+}
+
 
 .post-slideshow {
     position: relative;

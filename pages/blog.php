@@ -10,9 +10,6 @@ $posts = getPosts();
 <!DOCTYPE html>
 <html lang="en">
 
-    <!-- load scripts -->
-    <script src="../scripts.js"></script>
-
     <!-- set page metadata -->
     <head>
         <meta charset="UTF-8">
@@ -45,31 +42,45 @@ $posts = getPosts();
                     <?php foreach ($posts as $post): ?>
                         <div class="post-card">
 
-                            <!-- display title, date, and content -->
+                            <!-- display title and date aligned in center-->
                             <h3><?= htmlspecialchars($post['title']) ?></h3>
                             <p><em><?= htmlspecialchars($post['date']) ?> by <?= htmlspecialchars($post['author']) ?></em></p>
-                            <p><?= nl2br(htmlspecialchars(substr($post['content'], 0, 150))) ?></p>
+                            
+                            <!-- display post conted aligned on left-->
+                            <div class="content">
+                                <p><?= nl2br(htmlspecialchars(substr($post['content'], 0, 150))) ?></p>
+                            </div>
 
                             <!-- display images in slideshow, if there are any -->
                             <div class="post-slideshow">
-                                <?php if (!empty($post['images'])): ?>
-                                    <?php foreach ($post['images'] as $image): ?>
-                                        <img src="../<?= htmlspecialchars($image) ?>" alt="Post image">
-                                    <?php endforeach; ?>
-                                <?php endif; ?>
+                                <div class="slideshow-container">
+                                    <?php if (!empty($post['images'])): ?>
+                                        <?php foreach ($post['images'] as $index => $image): ?>
+                                            <img src="../blog/<?= htmlspecialchars($image) ?>" 
+                                                alt="Post image <?= $index + 1 ?>" 
+                                                class="slide <?= $index === 0 ? 'active' : '' ?>">
+                                        <?php endforeach; ?>
+                                    <?php endif; ?>
+                                    <button class="prev" onclick="changeSlide(this, -1)">&#10094;</button>
+                                    <button class="next" onclick="changeSlide(this, 1)">&#10095;</button>
+                                </div>
                             </div>
                         </div>
                     <?php endforeach; ?>
+
+                    <!-- dynamic footer -->
+                    <footer> <p>&copy; 2024 John Mathews</p> </footer>
                 <!-- too lazy to add posts, tell the user -->
                 <?php else: ?>
                     <p>No posts available yet. Check back soon!</p>
+
+                     <!-- fixed footer -->
+                    <footer id = "fixed-footer"> <p>&copy; 2024 John Mathews</p></footer>
                 <?php endif; ?>
             </div>
         </main>
 
-        <!-- contents of footer -->
-        <footer>
-            <p>&copy; 2024 John Mathews</p>
-        </footer>
+        <!-- Load JavaScript -->
+        <script src="../script.js"></script>
     </body>
 </html>
