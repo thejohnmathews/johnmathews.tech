@@ -26,7 +26,8 @@ $posts = getPosts();
             <h1>My Blog About Living in Spain!</h1>
             <nav>
                 <a href="../index.php">Home</a> 
-                <a href="blog.php">La vida en Espana</a>
+                <a href="blog.php"class="active">La vida en Espana</a>
+                <a href="mooc.php">NALCAP MOOC</a>
                 <a href="about.html">About</a> 
             </nav>
         </header>

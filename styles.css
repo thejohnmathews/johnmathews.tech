@@ -159,3 +159,24 @@ footer {
     position: relative; 
     width: 100%;
 }
+
+#project-details, #digital-tools, #project-visual {
+    margin: 20px auto;
+    max-width: 800px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+#project-details h2, #digital-tools h4, #project-visual h4 {
+    text-align: center;
+    color: #333;
+}
+#project-image {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
