@@ -180,3 +180,24 @@ footer {
     border: 1px solid #ccc;
     border-radius: 8px;
 }
+
+#social-media-links {
+    margin-top: 10px;
+}
+
+#social-media-links a {
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.social-icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+}
+
+.social-icon:hover {
+    transform: scale(1.2);
+}
+
