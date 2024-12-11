@@ -28,7 +28,7 @@ $posts = getPosts();
                 <a href="../index.php">Home</a> 
                 <a href="blog.php"class="active">La vida en Espana</a>
                 <a href="mooc.php">NALCAP MOOC</a>
-                <a href="about.html">About</a> 
+                <a href="about.php">About</a> 
             </nav>
         </header>
 
@@ -70,13 +70,40 @@ $posts = getPosts();
                     <?php endforeach; ?>
 
                     <!-- dynamic footer -->
-                    <footer> <p>&copy; 2024 John Mathews</p> </footer>
+                    <footer>
+                
+                        <p>&copy; 2024 John Mathews</p>
+                        <div id="social-media-links">
+                            <a href="https://www.linkedin.com/in/thejohnmathews" target="_blank" title="LinkedIn">
+                                <img src="../assets/icons/linkedin.png" alt="LinkedIn Logo" class="social-icon">
+                            </a>
+                            <a href="https://github.com/thejohnmathews" target="_blank" title="GitHub">
+                                <img src="../assets/icons/github.png" alt="GitHub Logo" class="social-icon">
+                            </a>
+                            <a href="https://www.instagram.com/john.em" target="_blank" title="Instagram">
+                                <img src="../assets/icons/instagram.png" alt="Instagram Logo" class="social-icon">
+                            </a>
+                        </div>
+                    </footer>
                 <!-- too lazy to add posts, tell the user -->
                 <?php else: ?>
                     <p>No posts available yet. Check back soon!</p>
 
-                     <!-- fixed footer -->
-                    <footer id = "fixed-footer"> <p>&copy; 2024 John Mathews</p></footer>
+                    <!-- contents of footer -->
+                    <footer id="fixed-footer">
+                        <p>&copy; 2024 John Mathews</p>
+                        <div id="social-media-links">
+                            <a href="https://www.linkedin.com/in/thejohnmathews" target="_blank" title="LinkedIn">
+                                <img src="../assets/icons/linkedin.png" alt="LinkedIn Logo" class="social-icon">
+                            </a>
+                            <a href="https://github.com/thejohnmathews" target="_blank" title="GitHub">
+                                <img src="../assets/icons/github.png" alt="GitHub Logo" class="social-icon">
+                            </a>
+                            <a href="https://www.instagram.com/john.em" target="_blank" title="Instagram">
+                                <img src="../assets/icons/instagram.png" alt="Instagram Logo" class="social-icon">
+                            </a>
+                        </div>
+                    </footer>
                 <?php endif; ?>
             </div>
         </main>

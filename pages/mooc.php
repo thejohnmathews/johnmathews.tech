@@ -24,19 +24,20 @@
         <section id="project-details">
             <h2>Final Assignment Details</h2>
             
-            <h3>Title: <span id="project-title">Transporation</span></h3>
+            <h3>Title: <span id="project-title">Different Types of Transportation</span></h3>
 
-            <h4>Basic Information</h4>
+            <h4>Overview</h4>
             <ul>
-                <li><strong>Topic:</strong> Transportation</li>
                 <li><strong>Subject Area:</strong> English</li>
-                <li><strong>Students' Grade:</strong> Infantíl</li>
+                <li><strong>Level:</strong> Infantíl - 3 to 5 years old</li>
+                <li><strong>Digital Resources:</strong> Infantíl - 3 to 5 years old</li>
+                <li><strong>Time Needed:</strong> 10 minutes total</li>
             </ul>
 
             <h4>Description</h4>
-            <p>
-                Describe how your Final Assignment is useful or original for your students. 
-                [Add your description here.]
+            <p> I am a language assistant for 3-5 year old children at CEIP Eugenio Maria de Hostos. 
+                
+
             </p>
 
             <h4>Responses to Key Questions</h4>
@@ -79,8 +80,20 @@
         </section>
     </main>
 
+    <!-- contents of footer -->
     <footer>
         <p>&copy; 2024 John Mathews</p>
+        <div id="social-media-links">
+            <a href="https://www.linkedin.com/in/thejohnmathews" target="_blank" title="LinkedIn">
+                <img src="../assets/icons/linkedin.png" alt="LinkedIn Logo" class="social-icon">
+            </a>
+            <a href="https://github.com/thejohnmathews" target="_blank" title="GitHub">
+                <img src="../assets/icons/github.png" alt="GitHub Logo" class="social-icon">
+            </a>
+            <a href="https://www.instagram.com/john.em" target="_blank" title="Instagram">
+                <img src="../assets/icons/instagram.png" alt="Instagram Logo" class="social-icon">
+            </a>
+        </div>
     </footer>
 </body>
 </html>
