@@ -11,7 +11,7 @@
 </head>
 <body>
     <header>
-        <h1>Module 4: Final Project</h1>
+        <h1>NALCAP MOOC | Final Project</h1>
         <nav>
             <a href="../index.php">Home</a>
             <a href="blog.php">La vida en Espana</a>
@@ -81,8 +81,8 @@
 
         <section id="project-details">
             <h2>Paper Activity</h2>
-            <p> The paper activity provided </p>
-
+            <p> I chose to create a paper activity to help </p>
+            <iframe src="../assets/files/transportactivity.pdf" width="100%" height="500px" style="border: none;"></iframe>
         </section>
 
         <section id="project-details">
