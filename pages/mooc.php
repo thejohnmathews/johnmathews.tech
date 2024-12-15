@@ -20,63 +20,80 @@
         </nav>
     </header>
 
-    <main>
+    <main id = "mooc-page">
+
         <section id="project-details">
-            <h2>Final Assignment Details</h2>
-            
-            <h3>Title: <span id="project-title">Different Types of Transportation</span></h3>
+            <h2>Different Types of Transportation</h2>
 
             <h4>Overview</h4>
             <ul>
-                <li><strong>Subject Area:</strong> English</li>
+                <li><strong>Subject Area:</strong> English Basics</li>
                 <li><strong>Level:</strong> Infantíl - 3 to 5 years old</li>
-                <li><strong>Digital Resources:</strong> Infantíl - 3 to 5 years old</li>
-                <li><strong>Time Needed:</strong> 10 minutes total</li>
+                <li><strong>Resources and Digital Tools:</strong> Google Slides Presentation, Song, Paper Activity</li>
+                <li><strong>Time Needed:</strong> 10 minute presentation, 5 minute paper activity</li>
             </ul>
 
             <h4>Description</h4>
-            <p> I am a language assistant for 3-5 year old children at CEIP Eugenio Maria de Hostos. 
-                
+            <p> I am an english language assistant for 3-5 year old children (infantíl) at CEIP Eugenio Maria de Hostos.
+                Typically, the English lessons for the infantíl level revolve around simple and generalized topics that they already
+                understand in Spanish. Through my experience observing my bilingual teachers, both digital (presentations, songs, games) and 
+                physical (objects, activity sheets, and crafts) activities taught over a week is all it takes to instill new knowledge.
 
+                I wanted a topic that was simple and widely used, so I chose "Different Types of Transportation". 
+                My final project consists of a mostly visual presentation filled with transport such as: cars, trains, buses,
+                airplanes, etc. The presentation also contains a YouTube song and a Genially interactive game. Additionally,
+                the project has a physical paper activity.
             </p>
 
-            <h4>Responses to Key Questions</h4>
+            <h4>Materials Needed</h4>
             <ul>
-                <li><strong>What topic are you teaching?</strong> [Add your response]</li>
-                <li><strong>What are your objectives?</strong> [Add your response]</li>
-                <li><strong>What materials are you going to use?</strong> [Add your response]</li>
-                <li><strong>What is the timing for your lesson?</strong> [Add your response]</li>
-                <li><strong>What is the teacher’s role?</strong> [Add your response]</li>
-                <li><strong>What is your role as an LA?</strong> [Add your response]</li>
-                <li><strong>How are you and the teacher working to complement each other?</strong> [Add your response]</li>
-                <li><strong>What activities are the students going to do?</strong> [Add your response]</li>
-                <li><strong>In what other activities organized by your school have you participated?</strong> [Add your response]</li>
-                <li><strong>What exactly did your collaboration add to the extracurricular activities?</strong> [Add your response]</li>
-                <li><strong>How will your proposal respond to different learning styles?</strong> [Add your response]</li>
+                <li>Computer</li>
+                <li>Printer and Paper</li>
+                <li>Pencils or Crayons</li>
             </ul>
+
+            <!-- place gif or whatever -->
+            <!--
+            <section id="project-visual">
+                <h4>Illustration</h4>
+                <p>Insert an image or GIF that illustrates your project topic:</p>
+                <img src="../path-to-your-image/image.png" alt="Project Illustration" id="project-image">
+            </section>
+            -->
         </section>
 
-        <section id="digital-tools">
-            <h4>Digital Tools and Resources</h4>
-            <ul>
-                <li>Presentations and slideshows</li>
-                <li>Animated or comic strips</li>
-                <li>Multimedia content</li>
-                <li>Class dramatizations or presentations</li>
-                <li>Games and quizzes</li>
-                <li>Timelines</li>
-                <li>Mindmaps</li>
-                <li>Social networking</li>
-            </ul>
+        <section id="project-details">
+            <h2>Rationale and Objectives</h2>
+            <h4>Objective</h4>
+            <p> This lesson 
+
+            </p>
+            <h4>Rationale</h4>
             <p>
-                [Describe how these tools will be used in your final project.]
+                
             </p>
         </section>
 
-        <section id="project-visual">
-            <h4>Illustration</h4>
-            <p>Insert an image or GIF that illustrates your project topic:</p>
-            <img src="../path-to-your-image/image.png" alt="Project Illustration" id="project-image">
+        <section id="project-details">
+            <h2>Presentation</h2>
+
+        </section>
+
+        <section id="project-details">
+            <h2>Paper Activity</h2>
+            <p> The paper activity provided </p>
+
+        </section>
+
+        <section id="project-details">
+            <h2>Additional Information</h2>
+
+            <h4>Images Used:</h4>
+            <p><i>Vibrant Transportation Pattern</i>. www.stockcake.com. Retreived December 15, 2024, from https://stockcake.com/i/vibrant-transportation-pattern_922648_1128463</p>
+
+            <h4>Credits:</h4>
+            <p> This webpage was programmed by John Mathews using HTML5 and PHP in VisualStudio Code.</p>
+            <p> Webhosting for this webpage is provided by Domain.com</p>
         </section>
     </main>
 
