@@ -33,7 +33,7 @@ $posts = getPosts();
         </header>
 
         <!-- information I want to say on the page -->
-        <main>
+        <main id="blog-page">
             <div id="posts">
 
                 <!-- are there posts on my blog? -->

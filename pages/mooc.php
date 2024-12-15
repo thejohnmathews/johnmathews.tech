@@ -65,23 +65,39 @@
         <section id="project-details">
             <h2>Rationale and Objectives</h2>
             <h4>Objective</h4>
-            <p> This lesson 
-
+            <p> The goal of this project is to discover and learn necessary English vocabulary that will
+                help them navigate the world when they are older. The children should be able to connect
+                and verbalize the English translation of common modes of transportation. 
             </p>
             <h4>Rationale</h4>
-            <p>
-                
+            <p> Throughout my limited expereince teaching children english as a second language (ESO), I have noticed 
+                that most lessons revolve around a presentation introducing images of words and having the children repeat them out loud.
+                Typically, the children will shout out the Spanish translation of a word. In return, the teachers emphasize
+                vocalizing the English translation of the specified word. This process allows for the children to associate
+                the Spanish and English translation of a word together.
+            </p>
+
+            <p> The presentation I described above is useful for children who are primarily visual and auditory learners.
+                In order to help young kinesthetic learners, my lesson comes with a paper activity where the kids
+                color and write (trace) the names of the new vocabulary. By incorporating elements of all the 
+                learning styles, most kids will be able to retain the English translation of modes of transportation.
             </p>
         </section>
 
         <section id="project-details">
             <h2>Presentation</h2>
 
+            <p>
+                Presentation Here.
+            </p>
+            <iframe src="../assets/files/presentation.pdf" width="100%" height="500px" style="border: none;"></iframe>
         </section>
 
         <section id="project-details">
             <h2>Paper Activity</h2>
-            <p> I chose to create a paper activity to help </p>
+            <p> 
+                Paper Activity Here.
+            </p>
             <iframe src="../assets/files/transportactivity.pdf" width="100%" height="500px" style="border: none;"></iframe>
         </section>
 
