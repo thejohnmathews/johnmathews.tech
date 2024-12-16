@@ -99,9 +99,11 @@
 
             <p> The presentation is embedded below:</p>
 
-            <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSHjj-kyJsbzxs0L158lC5TyaSzELMp5-pwU4E7A0RyWFVARIW9CVVGKgQBYcAUKHgUuP9PyoZsvAim/embed?start=true&loop=false&delayms=15000" 
-                frameborder="0" width="800" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">
-            </iframe>
+            <div class="mobile-iframe-container">
+                <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSHjj-kyJsbzxs0L158lC5TyaSzELMp5-pwU4E7A0RyWFVARIW9CVVGKgQBYcAUKHgUuP9PyoZsvAim/embed?start=true&loop=false&delayms=15000" 
+                    allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">
+                </iframe>
+            </div>
         </section>
 
         <section id="project-details">
