@@ -23,7 +23,7 @@
     <main id = "mooc-page">
 
         <section id="project-details">
-            <h2>Different Types of Transportation</h2>
+            <h2>Different Modes of Transportation</h2>
 
             <h4>Overview</h4>
             <ul>
@@ -87,17 +87,30 @@
         <section id="project-details">
             <h2>Presentation</h2>
 
-            <p>
-                Presentation Here.
+            <p> For the presentation, have the kids sit in a circle around the screen so that everyone can see.
+                Take the time to explain to the kids what the subject of the presentation is: "Different Modes of Transportation".
+                Whenever a new mode of transporation appears, ask the children if they know the term in English. If noone knows,
+                say the term and make sure the kids vocalize the mode of transportation. At the end of the slideshow, you
+                can ask the kids about their favorite term. Additionally, you can play the interactive game or song at the end
+                of the presentation to reinforce the material.
+                
             </p>
-            <iframe src="../assets/files/presentation.pdf" width="100%" height="500px" style="border: none;"></iframe>
+
+            <p> The presentation is embedded below:</p>
+
+            <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSHjj-kyJsbzxs0L158lC5TyaSzELMp5-pwU4E7A0RyWFVARIW9CVVGKgQBYcAUKHgUuP9PyoZsvAim/embed?start=true&loop=false&delayms=15000" 
+                frameborder="0" width="800" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">
+            </iframe>
         </section>
 
         <section id="project-details">
             <h2>Paper Activity</h2>
-            <p> 
-                Paper Activity Here.
+            <p> For the paper activity, explain to the kids in English that they need to color each mode of transportation and
+                trace (write) the names of each.
             </p>
+
+            <p> The paper activity is embedded below:</p>
+            
             <iframe src="../assets/files/transportactivity.pdf" width="100%" height="500px" style="border: none;"></iframe>
         </section>
 
