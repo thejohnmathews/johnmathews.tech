@@ -22,7 +22,7 @@
                 <a href="index.php" class="active">Home</a>
                 <a href="pages/blog.php">La vida en Espana</a>
                 <a href="pages/mooc.php">NALCAP MOOC</a>
-                <a href="pages/about.php">About</a>
+                <a href="pages/about.php">About Me</a>
             </nav>
         </header>
 

@@ -16,7 +16,7 @@
             <a href="../index.php">Home</a>
             <a href="blog.php">La vida en Espana</a>
             <a href="mooc.php" class="active">NALCAP MOOC</a>
-            <a href="about.php">About</a>
+            <a href="about.php">About Me</a>
         </nav>
     </header>
 
@@ -29,8 +29,8 @@
             <ul>
                 <li><strong>Subject Area:</strong> English Basics</li>
                 <li><strong>Level:</strong> Infantíl - 3 to 5 years old</li>
-                <li><strong>Resources and Digital Tools:</strong> Google Slides Presentation, Song, Paper Activity</li>
-                <li><strong>Time Needed:</strong> 10 minute presentation, 5 minute paper activity</li>
+                <li><strong>Resources and Digital Tools:</strong> Google Slides Presentation, Paper Activity</li>
+                <li><strong>Time Needed:</strong> 5-10 minute presentation, 5 minute paper activity</li>
             </ul>
 
             <h4>Description</h4>
@@ -52,23 +52,26 @@
                 <li>Pencils or Crayons</li>
             </ul>
 
-            <!-- place gif or whatever -->
-            <!--
-            <section id="project-visual">
-                <h4>Illustration</h4>
-                <p>Insert an image or GIF that illustrates your project topic:</p>
-                <img src="../path-to-your-image/image.png" alt="Project Illustration" id="project-image">
-            </section>
-            -->
+        <div style="text-align: center; margin-top: 20px;">
+            <img src="../assets/files/projectimage.gif" alt="Materials Needed GIF" style="max-width: 75%; height: 300; border-radius: 8px;">
+        </div>
         </section>
 
         <section id="project-details">
+            
             <h2>Rationale and Objectives</h2>
+
             <h4>Objective</h4>
             <p> The goal of this project is to discover and learn necessary English vocabulary that will
                 help them navigate the world when they are older. The children should be able to connect
                 and verbalize the English translation of common modes of transportation. 
             </p>
+            <p> In this lesson, the language assistant should take charge with the bilingual teacher
+                as support. The language assistant will teach the presentation and introduce the paper
+                activity afterwards. The bilingual teacher will provide support for students who need
+                questions answered in Spanish.
+            </p>
+
             <h4>Rationale</h4>
             <p> Throughout my limited expereince teaching children english as a second language (ESO), I have noticed 
                 that most lessons revolve around a presentation introducing images of words and having the children repeat them out loud.
@@ -76,7 +79,6 @@
                 vocalizing the English translation of the specified word. This process allows for the children to associate
                 the Spanish and English translation of a word together.
             </p>
-
             <p> The presentation I described above is useful for children who are primarily visual and auditory learners.
                 In order to help young kinesthetic learners, my lesson comes with a paper activity where the kids
                 color and write (trace) the names of the new vocabulary. By incorporating elements of all the 
@@ -88,12 +90,11 @@
             <h2>Presentation</h2>
 
             <p> For the presentation, have the kids sit in a circle around the screen so that everyone can see.
-                Take the time to explain to the kids what the subject of the presentation is: "Different Modes of Transportation".
-                Whenever a new mode of transporation appears, ask the children if they know the term in English. If noone knows,
+                Take the time to explain to the kids what the subject of the presentation is: "Different Types of Transportation".
+                Whenever a new mode of transporation appears, ask the children if they know the term in English. If no one knows,
                 say the term and make sure the kids vocalize the mode of transportation. At the end of the slideshow, you
-                can ask the kids about their favorite term. Additionally, you can play the interactive game or song at the end
+                can ask the kids questions, such as which mode of transport is their favorite. Additionally, you can play the interactive game or song at the end
                 of the presentation to reinforce the material.
-                
             </p>
 
             <p> The presentation is embedded below:</p>
@@ -106,7 +107,8 @@
         <section id="project-details">
             <h2>Paper Activity</h2>
             <p> For the paper activity, explain to the kids in English that they need to color each mode of transportation and
-                trace (write) the names of each.
+                trace (write) the names of each. While the children are working on the activity page, ask and encourage
+                kids to say each term in English.
             </p>
 
             <p> The paper activity is embedded below:</p>
@@ -118,10 +120,11 @@
             <h2>Additional Information</h2>
 
             <h4>Images Used:</h4>
+            <p><i>Autonomous transportation</i>. www.dribbble.com. Retreived December 16, 2024, from https://dribbble.com/shots/5615278-Autonomous-transportation</p>
             <p><i>Vibrant Transportation Pattern</i>. www.stockcake.com. Retreived December 15, 2024, from https://stockcake.com/i/vibrant-transportation-pattern_922648_1128463</p>
 
             <h4>Credits:</h4>
-            <p> This webpage was programmed by John Mathews using HTML5 and PHP in VisualStudio Code.</p>
+            <p> This webpage was custom programmed by John Mathews using HTML5 and PHP in VisualStudio Code.</p>
             <p> Webhosting for this webpage is provided by Domain.com</p>
         </section>
     </main>

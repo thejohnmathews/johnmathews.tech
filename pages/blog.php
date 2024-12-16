@@ -28,7 +28,7 @@ $posts = getPosts();
                 <a href="../index.php">Home</a> 
                 <a href="blog.php"class="active">La vida en Espana</a>
                 <a href="mooc.php">NALCAP MOOC</a>
-                <a href="about.php">About</a> 
+                <a href="about.php">About Me</a> 
             </nav>
         </header>
 
