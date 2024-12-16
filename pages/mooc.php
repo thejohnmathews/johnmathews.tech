@@ -58,7 +58,7 @@
         </section>
 
         <section id="project-details">
-            
+
             <h2>Rationale and Objectives</h2>
 
             <h4>Objective</h4>
@@ -126,6 +126,9 @@
             <h4>Credits:</h4>
             <p> This webpage was custom programmed by John Mathews using HTML5 and PHP in VisualStudio Code.</p>
             <p> Webhosting for this webpage is provided by Domain.com</p>
+
+            <h4>Traducción:</h4>
+            <p> Traducción al español (solo Google Chrome): haga clic en el ícono de tres puntos al lado de su perfil y navegue hasta "traducir...", seleccione español.</p>
         </section>
     </main>
 
