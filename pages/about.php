@@ -22,17 +22,26 @@
         </nav>
     </header>
 
-    <main>
+    <main id="about-page">
         <section id="project-details">
             <h2> About Me</h2>
 
-            <p>Nothing for now.</p>
+            <p>Nothing for now. </p>
+
+        </section>
+
+        <section id="project-details">
+            <h2> My Resume</h2>
+
+            <p> Sorry if you are looking for my resume right now, I need to rewrite it :)</p>
+
+            <iframe src="../assets/files/resume.pdf" width="100%" height="500px" style="border: none;"></iframe>
 
         </section>
     </main>
 
     <!-- contents of footer -->
-    <footer id="fixed-footer">
+    <footer>
         <p>&copy; 2024 John Mathews</p>
         <div id="social-media-links">
             <a href="https://www.linkedin.com/in/thejohnmathews" target="_blank" title="LinkedIn">

@@ -16,6 +16,7 @@ $posts = getPosts();
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>johnmathews.tech</title>
         <link rel="stylesheet" href="../styles.css">
+        <script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
     </head>
 
     <!-- contents of page -->
@@ -36,73 +37,46 @@ $posts = getPosts();
         <main id="blog-page">
             <div id="posts">
 
-                <!-- are there posts on my blog? -->
-                <?php if (!empty($posts)): ?>
+                <!-- display each JSON post on the page -->
+                <?php foreach ($posts as $post): ?>
+                    <div class="post-card">
 
-                    <!-- display each JSON post on the page -->
-                    <?php foreach ($posts as $post): ?>
-                        <div class="post-card">
+                        <!-- display title and date -->
+                        <h3><?= htmlspecialchars($post['title']) ?></h3>
+                        <p><em><?= htmlspecialchars($post['date']) ?> by <?= htmlspecialchars($post['author']) ?></em></p>
+                        
+                        <!-- display post content -->
+                        <div class="content">
+                            <p><?= nl2br(htmlspecialchars(substr($post['content'], 0))) ?></p>
+                        </div>
 
-                            <!-- display title and date -->
-                            <h3><?= htmlspecialchars($post['title']) ?></h3>
-                            <p><em><?= htmlspecialchars($post['date']) ?> by <?= htmlspecialchars($post['author']) ?></em></p>
-                            
-                            <!-- display post content -->
-                            <div class="content">
-                                <p><?= nl2br(htmlspecialchars(substr($post['content'], 0))) ?></p>
+                        <!-- display imgur embed -->
+                        <?php if (!empty($post['imgurId'])): ?>
+                            <div class="imgur-embed-container">
+                                <blockquote class="imgur-embed-pub" lang="en" data-id="a/<?= htmlspecialchars($post['imgurId']) ?>">
+                                    <a href="//imgur.com/a/<?= htmlspecialchars($post['imgurId']) ?>">View on Imgur</a>
+                                </blockquote>
                             </div>
-
-                            <!-- display imgur embed -->
-                            <?php if (!empty($post['imgurId'])): ?>
-                                <div class="imgur-embed-container">
-                                    <blockquote class="imgur-embed-pub" lang="en" data-id="a/<?= htmlspecialchars($post['imgurId']) ?>">
-                                        <a href="//imgur.com/a/<?= htmlspecialchars($post['imgurId']) ?>">View on Imgur</a>
-                                    </blockquote>
-                                </div>
-                            <?php endif; ?>
-                        </div>
-                    <?php endforeach; ?>
-
-                    <!-- dynamic footer -->
-                    <footer>
-                        <p>&copy; 2024 John Mathews</p>
-                        <div id="social-media-links">
-                            <a href="https://www.linkedin.com/in/thejohnmathews" target="_blank" title="LinkedIn">
-                                <img src="../assets/icons/linkedin.png" alt="LinkedIn Logo" class="social-icon">
-                            </a>
-                            <a href="https://github.com/thejohnmathews" target="_blank" title="GitHub">
-                                <img src="../assets/icons/github.png" alt="GitHub Logo" class="social-icon">
-                            </a>
-                            <a href="https://www.instagram.com/john.em" target="_blank" title="Instagram">
-                                <img src="../assets/icons/instagram.png" alt="Instagram Logo" class="social-icon">
-                            </a>
-                        </div>
-                    </footer>
-
-                <!-- too lazy to add posts, tell the user -->
-                <?php else: ?>
-                    <p>No posts available yet. Check back soon!</p>
-
-                    <!-- contents of footer -->
-                    <footer id="fixed-footer">
-                        <p>&copy; 2024 John Mathews</p>
-                        <div id="social-media-links">
-                            <a href="https://www.linkedin.com/in/thejohnmathews" target="_blank" title="LinkedIn">
-                                <img src="../assets/icons/linkedin.png" alt="LinkedIn Logo" class="social-icon">
-                            </a>
-                            <a href="https://github.com/thejohnmathews" target="_blank" title="GitHub">
-                                <img src="../assets/icons/github.png" alt="GitHub Logo" class="social-icon">
-                            </a>
-                            <a href="https://www.instagram.com/john.em" target="_blank" title="Instagram">
-                                <img src="../assets/icons/instagram.png" alt="Instagram Logo" class="social-icon">
-                            </a>
-                        </div>
-                    </footer>
-                <?php endif; ?>
+                        <?php endif; ?>
+                    </div>
+                <?php endforeach; ?>
             </div>
         </main>
 
-        <!-- Load Imgur Embed Script Once -->
-        <script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+        <!-- dynamic footer -->
+        <footer>
+            <p>&copy; 2024 John Mathews</p>
+            <div id="social-media-links">
+                <a href="https://www.linkedin.com/in/thejohnmathews" target="_blank" title="LinkedIn">
+                    <img src="../assets/icons/linkedin.png" alt="LinkedIn Logo" class="social-icon">
+                </a>
+                <a href="https://github.com/thejohnmathews" target="_blank" title="GitHub">
+                    <img src="../assets/icons/github.png" alt="GitHub Logo" class="social-icon">
+                </a>
+                <a href="https://www.instagram.com/john.em" target="_blank" title="Instagram">
+                    <img src="../assets/icons/instagram.png" alt="Instagram Logo" class="social-icon">
+                </a>
+            </div>
+        </footer>
     </body>
 </html>

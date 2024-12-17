@@ -73,7 +73,7 @@
             </p>
 
             <h4>Rationale</h4>
-            <p> Throughout my limited experience teaching children english as a second language (ESO), I have noticed 
+            <p> Throughout my limited experience teaching children english as a second language (ESL), I have noticed 
                 that most lessons revolve around a presentation introducing images of words and having the children repeat them out loud.
                 Typically, the children will shout out the Spanish translation of a word. In return, the teachers emphasize
                 vocalizing the English translation of the specified word. This process allows for the children to associate
