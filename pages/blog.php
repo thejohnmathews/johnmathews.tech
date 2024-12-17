@@ -49,7 +49,7 @@ $posts = getPosts();
                             
                             <!-- display post content -->
                             <div class="content">
-                                <p><?= nl2br(htmlspecialchars(substr($post['content'], 0, 150))) ?></p>
+                                <p><?= nl2br(htmlspecialchars(substr($post['content'], 0))) ?></p>
                             </div>
 
                             <!-- display imgur embed -->
