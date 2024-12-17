@@ -14,7 +14,7 @@
         <h1>NALCAP MOOC | Final Project</h1>
         <nav>
             <a href="../index.php">Home</a>
-            <a href="blog.php">La vida en Espana</a>
+            <a href="blog.php">Mi vida en España</a>
             <a href="mooc.php" class="active">NALCAP MOOC</a>
             <a href="about.php">About Me</a>
         </nav>
@@ -99,11 +99,9 @@
 
             <p> The presentation is embedded below:</p>
 
-            <div class="mobile-iframe-container">
-                <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSHjj-kyJsbzxs0L158lC5TyaSzELMp5-pwU4E7A0RyWFVARIW9CVVGKgQBYcAUKHgUuP9PyoZsvAim/embed?start=true&loop=false&delayms=15000" 
-                    allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">
-                </iframe>
-            </div>
+            <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSHjj-kyJsbzxs0L158lC5TyaSzELMp5-pwU4E7A0RyWFVARIW9CVVGKgQBYcAUKHgUuP9PyoZsvAim/embed?start=true&loop=false&delayms=15000" 
+                frameborder="0" width="800" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">
+            </iframe>
         </section>
 
         <section id="project-details">

@@ -16,7 +16,7 @@
         <h1>About Me</h1>
         <nav>
             <a href="../index.php">Home</a>
-            <a href="blog.php">La vida en Espana</a>
+            <a href="blog.php">Mi vida en España</a>
             <a href="mooc.php">NALCAP MOOC</a>
             <a href="about.php" class="active">About Me</a>
         </nav>

@@ -4,7 +4,7 @@
 <?php
 // include functions.php and gather posts
 include "../includes/functions.php";
-$posts = getPosts(); 
+$posts = getPosts();
 ?>
 
 <!DOCTYPE html>
@@ -26,7 +26,7 @@ $posts = getPosts();
             <h1>My Blog About Living in Spain!</h1>
             <nav>
                 <a href="../index.php">Home</a> 
-                <a href="blog.php"class="active">La vida en Espana</a>
+                <a href="blog.php" class="active">Mi vida en España</a>
                 <a href="mooc.php">NALCAP MOOC</a>
                 <a href="about.php">About Me</a> 
             </nav>
@@ -43,35 +43,28 @@ $posts = getPosts();
                     <?php foreach ($posts as $post): ?>
                         <div class="post-card">
 
-                            <!-- display title and date aligned in center-->
+                            <!-- display title and date -->
                             <h3><?= htmlspecialchars($post['title']) ?></h3>
                             <p><em><?= htmlspecialchars($post['date']) ?> by <?= htmlspecialchars($post['author']) ?></em></p>
                             
-                            <!-- display post conted aligned on left-->
+                            <!-- display post content -->
                             <div class="content">
                                 <p><?= nl2br(htmlspecialchars(substr($post['content'], 0, 150))) ?></p>
                             </div>
 
-                            <!-- display images in slideshow, if there are any -->
-                            <div class="post-slideshow">
-                                <div class="slideshow-container">
-                                    <?php if (!empty($post['images'])): ?>
-                                        <?php foreach ($post['images'] as $index => $image): ?>
-                                            <img src="../blog/<?= htmlspecialchars($image) ?>" 
-                                                alt="Post image <?= $index + 1 ?>" 
-                                                class="slide <?= $index === 0 ? 'active' : '' ?>">
-                                        <?php endforeach; ?>
-                                    <?php endif; ?>
-                                    <button class="prev" onclick="changeSlide(this, -1)">&#10094;</button>
-                                    <button class="next" onclick="changeSlide(this, 1)">&#10095;</button>
+                            <!-- display imgur embed -->
+                            <?php if (!empty($post['imgurId'])): ?>
+                                <div class="imgur-embed-container">
+                                    <blockquote class="imgur-embed-pub" lang="en" data-id="a/<?= htmlspecialchars($post['imgurId']) ?>">
+                                        <a href="//imgur.com/a/<?= htmlspecialchars($post['imgurId']) ?>">View on Imgur</a>
+                                    </blockquote>
                                 </div>
-                            </div>
+                            <?php endif; ?>
                         </div>
                     <?php endforeach; ?>
 
                     <!-- dynamic footer -->
                     <footer>
-                
                         <p>&copy; 2024 John Mathews</p>
                         <div id="social-media-links">
                             <a href="https://www.linkedin.com/in/thejohnmathews" target="_blank" title="LinkedIn">
@@ -85,6 +78,7 @@ $posts = getPosts();
                             </a>
                         </div>
                     </footer>
+
                 <!-- too lazy to add posts, tell the user -->
                 <?php else: ?>
                     <p>No posts available yet. Check back soon!</p>
@@ -108,6 +102,8 @@ $posts = getPosts();
             </div>
         </main>
 
+        <!-- Load Imgur Embed Script Once -->
+        <script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
         <!-- Load JavaScript -->
         <script src="../script.js"></script>
     </body>

@@ -20,7 +20,7 @@
             <h1>Hey, I'm John!</h1>
             <nav>
                 <a href="index.php" class="active">Home</a>
-                <a href="pages/blog.php">La vida en Espana</a>
+                <a href="pages/blog.php">Mi vida en España</a>
                 <a href="pages/mooc.php">NALCAP MOOC</a>
                 <a href="pages/about.php">About Me</a>
             </nav>

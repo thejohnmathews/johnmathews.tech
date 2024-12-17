@@ -252,3 +252,10 @@ footer {
     height: 100%;
     border: 0;
 }
+
+
+/* Imgur Embed Container Styles */
+.imgur-embed-container {
+    margin: 1rem auto;
+    text-align: center;
+}
