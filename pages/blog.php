@@ -104,7 +104,5 @@ $posts = getPosts();
 
         <!-- Load Imgur Embed Script Once -->
         <script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
-        <!-- Load JavaScript -->
-        <script src="../script.js"></script>
     </body>
 </html>
