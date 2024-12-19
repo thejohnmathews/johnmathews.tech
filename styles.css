@@ -1,6 +1,18 @@
 /* styles.css: my attempt at using raw css to make my page */
 /* created 11/19/24 by John Mathews */
 
+html, body {
+    overflow-x: hidden; 
+    max-width: 100vw; 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+}
+
+* {
+    box-sizing: inherit;
+}
+
 /* header styles */
 header {
     background: #333;
@@ -37,7 +49,8 @@ main {
     flex-direction: column;
     align-items: center;
     gap: 20px;
-    margin: 20px auto;
+    margin: 0 auto;
+    max-width: 100%; 
 }
 
 .post-card {
@@ -156,12 +169,12 @@ footer {
     padding: 1rem;
     background: #333;
     color: #fff;
-    position: relative;
-    width: 100%;
-    max-width: 100vw; 
+    position: relative; 
+    width: 100%; 
+    max-width: 100vw;
     margin: 0 auto; 
     box-sizing: border-box;
-    overflow-x: hidden; 
+    overflow-x: hidden;
 }
 
 
@@ -228,7 +241,9 @@ footer {
     background-repeat: repeat;
     background-size: auto;
     background-position: top left;
-    padding: 20px 0; 
+    padding: 20px 0;
+    width: 100%; /* Ensure it stays within the viewport */
+    overflow-x: hidden;
 }
 
 #about-page {
@@ -269,6 +284,16 @@ footer {
 
 /* Imgur Embed Container Styles */
 .imgur-embed-container {
+    max-width: 100%;
+    overflow: hidden; 
     margin: 1rem auto;
     text-align: center;
+}
+
+.imgur-embed-container iframe,
+.imgur-embed-container blockquote {
+    max-width: 100%; 
+    width: 100%; 
+    height: auto; 
+    box-sizing: border-box;
 }
