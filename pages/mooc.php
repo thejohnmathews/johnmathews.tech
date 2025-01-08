@@ -136,7 +136,7 @@
 
     <!-- contents of footer -->
     <footer>
-        <p>&copy; 2024 John Mathews</p>
+        <p>&copy; 2024 John Mathews. This page is openly licensed via <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></p>
         <div id="social-media-links">
             <a href="https://www.linkedin.com/in/thejohnmathews" target="_blank" title="LinkedIn">
                 <img src="../assets/icons/linkedin.png" alt="LinkedIn Logo" class="social-icon">
