@@ -22,12 +22,11 @@
                 <a href="index.php" class="active">Home</a>
                 <a href="pages/blog.php">Mi vida en España</a>
                 <a href="pages/mooc.php">NALCAP MOOC</a>
-                <a href="pages/about.php">About Me</a>
             </nav>
         </header>
 
         <!-- information I want to say on the page -->
-        <main>
+        <main id="about-page">
             <section id="project-details">
                 <h2>Welcome!</h2>
                 <p>Hi! I'm John Mathews. This is my personal blog where I share my thoughts on web development, programming, and life in general. Feel free to explore!</p>
@@ -36,10 +35,19 @@
                     "NALCAP MOOC" tab in the navigation bar is my final project for the program, so enjoy!
                 </p>
             </section>
+
+            <section id="project-details">
+                <h2> My Resume</h2>
+
+                <p> Sorry if you are looking for my resume right now, I need to rewrite it :)</p>
+
+                <iframe src="../assets/files/resume.pdf" width="100%" height="500px" style="border: none;"></iframe>
+
+            </section>
         </main>
 
         <!-- contents of footer -->
-        <footer id="fixed-footer">
+        <footer>
             <p>&copy; 2024 John Mathews</p>
             <div id="social-media-links">
                 <a href="https://www.linkedin.com/in/thejohnmathews" target="_blank" title="LinkedIn">
