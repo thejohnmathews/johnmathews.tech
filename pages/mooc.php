@@ -16,7 +16,6 @@
             <a href="../index.php">Home</a>
             <a href="blog.php">Mi vida en España</a>
             <a href="mooc.php" class="active">NALCAP MOOC</a>
-            <a href="about.php">About Me</a>
         </nav>
     </header>
 

@@ -36,14 +36,27 @@
                 </p>
             </section>
 
-            <section id="project-details">
-                <h2> My Resume</h2>
-
-                <p> Sorry if you are looking for my resume right now, I need to rewrite it :)</p>
-
-                <iframe src="../assets/files/resume.pdf" width="100%" height="500px" style="border: none;"></iframe>
-
+            <section id="resume-section" class="collapsible">
+                <h2 onclick="toggleSection('resume-content')">My Resume</h2>
+                <div id="resume-content" class="content">
+                    <p>Sorry if you are looking for my resume right now, I need to rewrite it :)</p>
+                    <iframe src="../assets/files/resume.pdf" width="100%" height="500px" style="border: none;"></iframe>
+                </div>
             </section>
+
+            <script>
+                function toggleSection(sectionId) {
+                    const section = document.getElementById(sectionId);
+                    section.style.display = section.style.display === 'none' ? 'block' : 'none';
+                }
+
+                document.addEventListener('DOMContentLoaded', () => {
+                    const resumeContent = document.getElementById('resume-content');
+                    if (resumeContent) {
+                        resumeContent.style.display = 'none';
+                    }
+                });
+            </script>
         </main>
 
         <!-- contents of footer -->
