@@ -35,15 +35,14 @@ $posts = getPosts();
 
         <!-- information I want to say on the page -->
         <main id="blog-page">
-            <div id="posts">
 
                 <!-- display each JSON post on the page -->
                 <?php foreach ($posts as $post): ?>
-                    <div class="post-card">
+                    <section id="project-details">
 
                         <!-- display title and date -->
-                        <h3><?= htmlspecialchars($post['title']) ?></h3>
-                        <p><em><?= htmlspecialchars($post['date']) ?> by <?= htmlspecialchars($post['author']) ?></em></p>
+                        <h2><?= htmlspecialchars($post['title']) ?></h2>
+                        <h3><em><?= htmlspecialchars($post['date']) ?> by <?= htmlspecialchars($post['author']) ?></em></h3>
                         
                         <!-- display post content -->
                         <div class="content">
@@ -58,9 +57,8 @@ $posts = getPosts();
                                 </blockquote>
                             </div>
                         <?php endif; ?>
-                    </div>
+                    </section>
                 <?php endforeach; ?>
-            </div>
         </main>
 
         <!-- dynamic footer -->

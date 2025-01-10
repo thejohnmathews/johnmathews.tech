@@ -190,6 +190,12 @@ footer {
     text-align: center;
     color: #333;
 }
+#project-details h3, #digital-tools h4, #project-visual h4 {
+    text-align: center;
+    color: #555;
+    font-size: 16px;
+}
+
 #project-image {
     display: block;
     margin: 0 auto;
