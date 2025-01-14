@@ -17,6 +17,7 @@ $posts = getPosts();
         <title>johnmathews.tech</title>
         <link rel="stylesheet" href="../styles.css">
         <script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+        <script src="../blog/includes/imgurembed.js" defer></script>
     </head>
 
     <!-- contents of page -->
